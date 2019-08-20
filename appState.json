@@ -1,0 +1,76 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "5779636f-7e6e-43c0-bcba-9ddd337f35e7": {
+        "id": "5779636f-7e6e-43c0-bcba-9ddd337f35e7",
+        "parent": null,
+        "name": "my-new-project",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "caa7f706-06f5-49c6-844c-c62b5e9d6335"
+        ],
+        "isRemovable": false,
+        "filePath": "my-new-project"
+      },
+      "caa7f706-06f5-49c6-844c-c62b5e9d6335": {
+        "id": "caa7f706-06f5-49c6-844c-c62b5e9d6335",
+        "parent": "5779636f-7e6e-43c0-bcba-9ddd337f35e7",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "my-new-project/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "5779636f-7e6e-43c0-bcba-9ddd337f35e7",
+    "openFiles": [
+      "caa7f706-06f5-49c6-844c-c62b5e9d6335"
+    ],
+    "currentFileId": "caa7f706-06f5-49c6-844c-c62b5e9d6335",
+    "resources": {},
+    "customTemplate": {
+      "dialect": null,
+      "definitions": {}
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "my-new-project",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {}
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "my-new-project",
+      "url": "https://github.com/sigmavcs/my-new-project"
+    }
+  }
+}
