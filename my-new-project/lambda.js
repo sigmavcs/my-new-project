@@ -1,4 +1,4 @@
-exports.handler = function (event, context, callback) {
-    // remote
-    callback(null, { "message": "Successfully executed" });
+exports.handler = function(event, context, callback) {
+    // local
+    callback(null, {"message": "Successfully executed"});
 }
